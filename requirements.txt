@@ -1,8 +1,8 @@
+scikit-learn
 streamlit
-scikit-learn 
 nltk
 numpy
 pandas
 regex
 pickle5
-sklearn
+
