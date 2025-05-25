@@ -1,8 +1,3 @@
-scikit-learn
-streamlit
-nltk
-numpy
-pandas
-regex
-pickle5
-
+nltk==3.9.1
+scikit_learn==1.6.1
+streamlit==1.44.1
