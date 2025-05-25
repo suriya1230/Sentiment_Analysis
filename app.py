@@ -13,9 +13,9 @@ def load_stopword():
 
 @st.cache_resource
 def load_model():
-    with open('C:\Users\ksrag\OneDrive\Desktop\python work\project birthday\Sentiment Analysis\sentiment_model.pkl','rb')as model_file:
+    with open('C:/Users/ksrag/OneDrive/Desktop/python work/project birthday/Sentiment Analysis/sentiment_model.pkl','rb')as model_file:
         model=pickle.load(model_file)
-    with open('C:\Users\ksrag\OneDrive\Desktop\python work\project birthday\Sentiment Analysis\vectorizer.pkl', 'rb')as vectorizer_file:
+    with open('C:/Users/ksrag/OneDrive/Desktop/python work/project birthday/Sentiment Analysis/vectorizer.pkl', 'rb')as vectorizer_file:
         vectorizer=pickle.load(vectorizer_file)
     return model,vectorizer
 
